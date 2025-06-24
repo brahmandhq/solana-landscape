@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="">
       <Head>
-        <title>Ethereum Developer Tooling Landscape | DappCamp</title>
+        <title>Solana Developer Tooling Landscape | TechKareer</title>
       </Head>
       <ToolModal
         visible={visible}
@@ -42,16 +42,16 @@ export default function Home() {
             <div className="mb-2 lg:mb-0">
               <img
                 className="w-36 lg:w-36 h-auto"
-                src="https://www.dappcamp.xyz/dappcamp_logo.png"
-                alt="DappCamp Logo"
+                src="https://www.techkareer.com/logo.webp"
+                alt="TechKareer Logo"
               />
             </div>
             <div className="lg:text-center flex-1">
               <h1 className="block text-xl md:text-2xl xl:text-3xl font-bold text-gray-800">
-                Ethereum Developer Tooling Landscape
+                Solana Developer Tooling Landscape
               </h1>
               <p className="w-full hidden xl:block text-gray-600 text-xs lg:mx-auto">
-                {`This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Ethereum and EVM-compatible chains.`}
+                {`This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Solana and Solana-compatible chains.`}
                 <br />
                 {`Scroll horizontally and vertically to view the whole landscape. Click on any tool to view additional details.`}
               </p>

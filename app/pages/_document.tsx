@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { CssBaseline } from '@nextui-org/react'
 
-const title = 'Ethereum Developer Tooling Landscape | DappCamp'
+const title = 'Solana Developer Tooling Landscape | TechKareer'
 const defaultDescription =
   'A comprehensive list of tools that developers use when developing smart contracts on Ethereum and EVM-compatible chains'
 
