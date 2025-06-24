@@ -135,6 +135,20 @@ export default function ToolModal({ visible, setVisible, currentItem }) {
                 </p>
               )}
             </div>
+            <div className="detail">
+              {currentItem.career && (
+                <p>
+                  <span className="font-semibold block mb-0.5 ">Career</span>{' '}
+                  <a
+                    href={currentItem.career}
+                    target="_blank"
+                    className="text-blue-500 hover:font-semibold"
+                  >
+                    {currentItem.career.replace(/https?:\/\//, '').replace('www.', '')}
+                  </a>
+                </p>
+              )}
+            </div>
           </div>
         </div>
       </Modal.Body>
