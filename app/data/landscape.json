@@ -1,18 +1,18 @@
 [
-    {
+  {
       "description": "Microsoft Visual Studio Code is a free, cross-platform code editor with first‑class Rust support via the rust‑analyzer extension (introduced in 2020, building on earlier RLS-based support since 2017).",
-      "name": "VSCode",
+    "name": "VSCode",
       "full_name": "Visual Studio Code",
       "category": "Rust IDEs",
-      "launch_year": 2015,
-      "logo": "https://logowik.com/content/uploads/images/visual-studio-code7642.jpg",
-      "website": "https://code.visualstudio.com/",
+    "launch_year": 2015,
+    "logo": "https://logowik.com/content/uploads/images/visual-studio-code7642.jpg",
+    "website": "https://code.visualstudio.com/",
       "github": "https://github.com/microsoft/vscode",
-      "twitter": "https://twitter.com/code",
+    "twitter": "https://twitter.com/code",
       "career": "",
-      "funding": ""
-    },
-    {
+    "funding": ""
+  },
+  {
       "description": "JetBrains CLion is a powerful cross‑platform C/C++ IDE (released 2015) that supports Rust via an official plugin offering Cargo integration and robust debugging support.",
       "name": "CLion",
       "full_name": "JetBrains CLion",
@@ -22,21 +22,21 @@
       "website": "https://www.jetbrains.com/clion/",
       "github": "https://github.com/JetBrains/clion-remote",
       "twitter": "https://x.com/clion_ide",
-      "crunchbase": "",
-      "funding": ""
-    },
-    {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "IntelliJ IDEA (Community & Ultimate) supports Rust through the open‑source intellij‑rust plugin, widely used since around August 2017.",
         "name": "IntelliJ IDEA + Rust Plugin",
         "full_name": "IntelliJ IDEA with Rust Plugin",
         "category": "Rust IDEs",
-        "launch_year": 2017,
+    "launch_year": 2017,
         "logo": " https://www.helenjoscott.com/wp-content/uploads/2020/09/1200px-IntelliJ_IDEA_Logo.png",
         "website": "https://www.jetbrains.com/idea/",
         "github": "https://github.com/intellij-rust/intellij-rust",
         "twitter": "https://twitter.com/jetbrains",
-        "crunchbase": "",
-        "funding": ""
+    "crunchbase": "",
+    "funding": ""
        
     },
     {
@@ -49,10 +49,10 @@
         "website": "https://www.jetbrains.com/rustrover/",
         "github": "",
         "twitter": "https://x.com/rustrover",
-        "crunchbase": "",
-        "funding": ""
-    },
-    {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "Zed is a high‑performance, collaborative code editor written in Rust, first released in 2023 and open‑sourced in January 2024; it includes built‑in LSP support for Rust.",
         "name": "Zed",
         "full_name": "Zed Editor",
@@ -62,15 +62,15 @@
         "website": "https://zed.dev/",
         "github": "https://github.com/zed-industries/zed",
         "twitter": "https://twitter.com/zeddotdev",
-        "crunchbase": "",
-        "funding": ""
-    },
-    {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "name": "Anchor",
         "full_name": "Anchor Framework",
         "description": "The most popular Rust framework for Solana, offering macros, IDL, TypeScript clients, testing tools and CLI support to simplify smart contract development.",
-        "launch_year": 2021,
-        "category": "Development Frameworks",
+    "launch_year": 2021,
+    "category": "Development Frameworks",
         "website": "https://www.anchor-lang.com/",
         "github": "https://github.com/coral-xyz/anchor",
         "twitter": "https://twitter.com/anchor_lang",
@@ -81,7 +81,7 @@
         "full_name": "Seahorse Lang",
         "description": "Python‑style framework that compiles down to Anchor-compatible Rust, backed and supported by the Solana Foundation, widening access for non-Rust devs.",
         "launch_year": 2022,
-        "category": "Development Frameworks",
+    "category": "Development Frameworks",
         "website": "https://seahorse.dev/",
         "github": "https://github.com/solana-developers/seahorse",
         "twitter": "https://twitter.com/seahorse_lang",
@@ -92,7 +92,7 @@
         "full_name": "Solana Program Library (SPL)",
         "description": "Official collection of on‑chain programs in Rust maintained by Solana Labs—core building blocks like SPL Token, governance, etc.",
         "launch_year": 2020,
-        "category": "Development Frameworks",
+    "category": "Development Frameworks",
         "website": "https://spl.solana.com/",
         "github": "https://github.com/solana-labs/solana-program-library",
         "twitter": "https://twitter.com/solana",
@@ -103,10 +103,10 @@
         "full_name": "Kaizen Framework",
         "description": "A Rust-first framework focused on security and reliability, allowing concurrent use of on-chain and client code without requiring IDLs.",
         "launch_year": 2023,
-        "category": "Development Frameworks",
+    "category": "Development Frameworks",
         "website": "https://github.com/solana-kaizen/kaizen",
         "github": "https://github.com/solana-kaizen/kaizen",
-        "twitter": "",
+    "twitter": "",
         "logo": "https://avatars.githubusercontent.com/u/118192505?v=4"
   }
   ,
@@ -236,8 +236,8 @@
       "description": "QuickNode delivers a fast, global RPC infrastructure for Solana (and 60+ chains), focusing on low latency, auto-scaling, and enterprise-grade reliability.",
       "name": "QuickNode",
       "full_name": "QuickNode",
-      "category": "Infrastructure",
-      "launch_year": 2017,
+    "category": "Infrastructure",
+    "launch_year": 2017,
       "logo": "data:image/png;base64,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",
       "website": "https://www.quicknode.com/",
       "career": "https://www.quicknode.com/careers",
@@ -250,7 +250,7 @@
       "description": "Helius offers Solana-native RPC endpoints, indexed data APIs (NFTs, tokens, transactions), webhooks and streaming—trusted by top dApps for scaling Solana infra.",
       "name": "Helius",
       "full_name": "Helius",
-      "category": "Infrastructure",
+    "category": "Infrastructure",
       "career": "https://www.helius.dev/careers",
       "launch_year": 2022,
       "logo": "https://helius.dev/logo.svg",
@@ -258,13 +258,13 @@
       "github": "https://github.com/helius-labs",
       "twitter": "",
       "crunchbase": "",
-      "funding": ""
-    },
-    {
+    "funding": ""
+  },
+  {
       "description": "Syndica delivers fast Solana RPC endpoints, real-time data feeds, advanced indexing APIs, and ChainStream support for high-performance dApp backends.",
       "name": "Syndica",
       "full_name": "Syndica",
-      "category": "Infrastructure",
+    "category": "Infrastructure",
       "launch_year": 2023,
       "logo": "https://logosandtypes.com/wp-content/uploads/2024/05/Syndica.png",
       "website": "https://syndica.io",
@@ -276,24 +276,24 @@
     },
     {
       "description": "Ankr is a versatile Web3 infrastructure hub offering shared and dedicated Solana RPC endpoints, staking services, and analytics for developers and enterprises.",
-      "name": "Ankr",
-      "full_name": "Ankr",
-      "category": "Infrastructure",
+    "name": "Ankr",
+    "full_name": "Ankr",
+    "category": "Infrastructure",
       "launch_year": 2019,
       "logo": "https://www.ankr.com/_next/static/images/ankr-black-symbol-dd2ae76266093620b9ed50219115920e.png",
-      "website": "https://www.ankr.com/",
+    "website": "https://www.ankr.com/",
       "github": "https://github.com/ankr-network",
       "twitter": "",
-      "crunchbase": "",
-      "funding": ""
-    },
-    {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
       "description": "Solflare is a Solana-native wallet offering staking, NFTs, dApp access, and browser/mobile extensions with seamless onboarding and security.",
       "name": "Solflare",
       "full_name": "Solflare Wallet",
-      "category": "Identity",
+    "category": "Identity",
       "career": "https://www.solflare.com/careers/",
-      "launch_year": 2020,
+    "launch_year": 2020,
       "logo": "https://www.solflare.com/wp-content/uploads/2024/11/App-Icon.svg",
       "website": "https://solflare.com/",
       "github": "https://github.com/solflare-wallet",
@@ -305,7 +305,7 @@
       "description": "Phantom is a popular crypto wallet and browser extension for managing digital assets and accessing dApps on the Solana blockchain.",
       "name": "Phantom",
       "full_name": "Phantom Wallet",
-      "category": "Identity",
+    "category": "Identity",
       "launch_year": 2021,
       "career": "https://phantom.com/careers",
       "logo": "data:image/png;base64,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",
@@ -319,20 +319,20 @@
         "description": "Slope Wallet is a fast-growing, mobile-first Solana wallet with Chrome extension—supports SOL, NFTs, staking, and in‑wallet swaps.",
         "name": "Slope Wallet",
         "full_name": "Slope Wallet",
-        "category": "Identity",
+    "category": "Identity",
         "launch_year": 2021,
         "logo": "https://avatars.githubusercontent.com/u/85394072?v=4",
         "website": "https://slope.finance/",
         "github": "https://github.com/slope-finance",
         "twitter": "https://twitter.com/slope_finance",
-        "crunchbase": "",
-        "funding": ""
-      },
-      {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "BitKeep supports Solana among 30+ chains with extension and mobile apps—well-known for multi-chain and DeFi support.",
         "name": "BitKeep",
         "full_name": "BitKeep Wallet",
-        "category": "Identity",
+    "category": "Identity",
         "career": "https://web3.bitget.com/en/about/jobs",
         "launch_year": 2018,
         "logo": "data:image/png;base64,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",
@@ -345,7 +345,7 @@
         "description": "Trust Wallet is a multi‑chain mobile wallet (by Binance) supporting Solana—widely used with 25M+ users and audited security.",
         "name": "Trust Wallet",
         "full_name": "Trust Wallet",
-        "category": "Identity",
+    "category": "Identity",
         "career": "https://trustwallet.com/careers",
         "launch_year": 2018,
         "logo": "https://trustwallet.com/assets/images/media/assets/TWT.png",
@@ -358,7 +358,7 @@
         "description": "Torus Wallet offers social login for Solana on web and mobile—seamless UX for devs and users via Google/email integration.",
         "name": "Torus",
         "full_name": "Torus Wallet",
-        "category": "Identity",
+    "category": "Identity",
         "launch_year": 2018,
         "logo": "data:image/jpeg;base64,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",
         "website": "https://tor.us/",
@@ -370,7 +370,7 @@
         "description": "Alpha Wallet is an open‑source Solana & EVM extension wallet focused on security, AES encryption, plugin system, and NFT detection.",
         "name": "Alpha Wallet",
         "full_name": "Alpha Wallet (Solana)",
-        "category": "Identity",
+    "category": "Identity",
         "launch_year": 2024,
         "logo": "https://alphawallet.com/wp-content/themes/alphawallet/img/logo-horizontal-new.svg",
         "website": "https://alphawallet.com",
@@ -380,22 +380,22 @@
       },
         {
           "description": "Arweave is a decentralized, permanent data storage protocol—widely used by Solana NFT platforms (e.g., Metaplex) for hosting metadata and media files in a censorship-resistant way.",
-          "name": "Arweave",
-          "full_name": "Arweave",
-          "category": "Storage",
-          "launch_year": 2017,
+    "name": "Arweave",
+    "full_name": "Arweave",
+    "category": "Storage",
+    "launch_year": 2017,
           "logo": "data:image/png;base64,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",
-          "website": "https://www.arweave.org/",
-          "github": "https://github.com/ArweaveTeam/arweave",
-          "twitter": "https://twitter.com/arweaveteam",
-          "crunchbase": "https://www.crunchbase.com/organization/arweave",
+    "website": "https://www.arweave.org/",
+    "github": "https://github.com/ArweaveTeam/arweave",
+    "twitter": "https://twitter.com/arweaveteam",
+    "crunchbase": "https://www.crunchbase.com/organization/arweave",
           "funding": "$13M+"
         },
         {
           "description": "Bundlr is a high-speed, multi-chain layer that batches uploads to Arweave—supports paying in SOL and underpins most Solana NFT metadata uploads.",
           "name": "Bundlr",
           "full_name": "Bundlr Network",
-          "category": "Storage",
+    "category": "Storage",
           "launch_year": 2021,
           "logo": "data:image/jpeg;base64,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",
           "website": "https://bundlr.network/",
@@ -408,7 +408,7 @@
           "description": "Aleph.im is a web3 data layer offering decentralized storage & compute—supports Solana via IPFS-compatible integration, used by gaming and DeFi apps.",
           "name": "Aleph.im",
           "full_name": "Aleph.im",
-          "category": "Storage",
+    "category": "Storage",
           "launch_year": 2018,
           "logo": "data:image/jpeg;base64,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",
           "website": "https://aleph.im/",
@@ -421,55 +421,55 @@
           "description": "Koii Network is a decentralized storage & content delivery protocol built on Solana—integrates IPFS and rewards creators with engagement-based incentives.",
           "name": "Koii Network",
           "full_name": "Koii Network",
-          "category": "Storage",
+    "category": "Storage",
           "launch_year": 2022,
           "logo": "https://www.koii.network/images/navbar/logo.svg",
           "website": "https://koii.network/",
           "github": "https://github.com/koii-network",
           "twitter": "",
-          "crunchbase": "",
-          "funding": ""
-        }, 
-          {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
             "description": "Solscan is a community-built Solana block explorer offering dashboards for transactions, tokens, NFTs, and DeFi activity across the Solana ecosystem.",
             "name": "Solscan",
             "full_name": "Solscan",
-            "category": "Block Explorers",
+    "category": "Block Explorers",
             "launch_year": 2020,
             "logo": "data:image/png;base64,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",
             "website": "https://solscan.io/",
             "github": "https://github.com/solscanofficial",
             "twitter": "https://twitter.com/solscanofficial",
             "crunchbase": "https://www.crunchbase.com/organization/solscan",
-            "funding": ""
-          },
-          {
+    "funding": ""
+  },
+  {
             "description": "SolanaFM is a next-gen block explorer for Solana, built for power users and developers, offering advanced analytics, wallet linking, and enhanced readability.",
             "name": "SolanaFM",
             "full_name": "SolanaFM",
-            "category": "Block Explorers",
-            "launch_year": 2021,
+    "category": "Block Explorers",
+    "launch_year": 2021,
             "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAMAAACahl6sAAAAzFBMVEX///+ChfFSVMc4OIXAwfiKjfLp6fioqeJoac739/6OjqHJytjz8/aSlPPPz91ERI2anPRdX8r5+fvGxs+GifGTlN2UlbFqaqOgobzn5+6hpPWxs/epq/Xf4Pu4uc3v7/2vsMXQ0frT1PGztOZ+f9VRUZS5ucRXWchyc9G4ufff3/Td3eecnK2CgrK+v+mdnt+bm8G0tNHJy/p2dquHidhkZKCOjrvh4eOpqcjV1dzExNXExeO6u96hotJ/gNWmqNWqqriOjtpXV5jX2OxACJcjAAAJP0lEQVR4nO2daVfbOhCGA83mxs5ikgaT3QTIwtYUSgN0////6ZYSuHpnRrZz7kFSzvX71TFHD9JoRqORXCjkypUrV65cuXLlyuWiRvFk3jtqBqW9jQ5tt2h7eZNe87X9ezsK4k36nGG3QML1sKiD2CGQQTGBYXdAvH4KxS6A+A/9IB3DeZDoKAuE+yBxps5wHmSSHcNhkGjY3ALDWRA/s224DeJt1xuugiz77WyNL5WC5ovGtlvNtcqAEfRW8ch2Q5M1SrWOoDjwbLcyXeuUmOposgMQfyarpNgw6D+ufdstzKak7pjvRE9spJ102/OB7bZll1/URCRBbxzZbtwWinTDqmi7ZVtKs3YKdmhM/VVR5ujbbteWuhO9YDCv227YthI5dq03CppxdZTq/LxyfHlZ2ahmoqEpkjhKq+R34kqnuq/qg5m2Jki0j6/a7ohq46tp9Wyfyj5IT+iOie7H8TdG4ArIiK8+SrqVRlzVYdgHWXGH3hQn3WjcScCwDjLn40oMSbwKtwqXQNYZOeqtFAzbILxDRC8Yp3PYBZkwQ+/zgP3uKtE2XABZsf4QvOAiQ29YBvHZhHXEf1TJhmEV5Cubd+/oT6KbrBwWQUaMg/0kc3dYBaGZhoD687CT3PTWrFO5jOPys6wliiaEo83iksT+mB3HoY1mM02opT+SH0RaX17tjOvOpFV8aiAB+YFu1j2ruJWoGxMOGvBGGo5pbKe9WhFLL5GA1xeXHa2vzoyoF1FLJ5FiWQpKWo4Nqr+iydElPA0ljmrZUluTRDuEhLxDqT9cTHHRNC9J/Cx5h1THTm6MkCkrwLEvGEhrqflLlkXy1SRlIvSHi+bxJDT1Ej7kgYmzHMTUv8PDGuO40cRU4fr0/PriU3ejH2/fcCKPmDo6uSnlmMkc9W7jHei9ibaDSIdgkFVm40r0gvXuOyrjID6xEJiQ1jPC8Y1Pu+HBBaOwAUIyQDhlsRmLz7v1EwnDAgh2CPqQNeWosNe/yBjmQSLskB48PKSGzl7/qOMwDjJEC0ETIBbSoQZSu9VyGAdBE8Fo8TKlP6KGnsM4CG5PzeEZMfUr8urvJA7TICF6Q4jNSXDSwnRd+DkJwzhIjLauem3qCy/xzetkDtMguGEIuV7SIVV80U8cV+ZBMOkA3rCa2CGiN7cHstBPvnUy9cJ74Sep7d2L84N15D/LbN4RJ1/whugMW/jeuYTBcvcGhZMvJNuuknwI75ATq8kIH7ba2uC40avjauuBWnrjwmZ3FApL6BDYD/HQRCDqjWh33NrOONb1k2+MINBZdMY6sZ4bwogRbB1NZAqv0RXIF6ONloQJLbADNJEH9RGNTa7t7/BgYdZQebLQT74+5TDcaEkYoKg1bw8AcqO+dEAMxHCbRWGKUfUEGGgdqy8RZ+hEMhv9oTqH4sbOQn0J56yu4SbLwpBRtVnYaTuDl3B5e262xRphBkV5EEKHYASPk++B2RZrBCCqY48ABAItdOsN677wr2Cdqzr2JYB8U9+pA8gnwy3WSAuCmTmYfTGT5YIT+SMwETUVhKsqWFThWv2h4IQARA21anoQDFAc3YPLInQjtuP3/yA9yLqiSg14vKIqR47S4CpXnX3HMB7VwjOsaXPkbBM49ob6BEHUQ8cDAEk592BIGMT/Uh8dZgTRnhgwKvSHEDIiyFh54iII2jr4Q1wdq8s0LCh2wtjJ8hAWIz8BRJ21cCXqRL3BKYLAM1zDrJUnuBJ1oswLR9YtPMOstzoxwwKubbbFsshm24X6DFN6kK+ADqFln1ZEUnOwPIwBRM2EYQkrL/A2L7oZDctDnLTUDUfcAhdODhhWeE1y17/UVb6PJqJm9msA0qN/17hYkQNMvriXDSaCCU3roZZPU76YmsMDGbCoRDdi++aXiBXPfFQf+8CBKT10I8OCTa355ifm4O+B4wwWXJg+s5ma9IVNdXSGiTt1eATNYgLpi7SnTjZFcBsCVvkY+5LazzeWf7rR+YeLW7E0oIv/WFJ/M1afoYlguctb60BqO3Dg72mRs2oiHnAYDuLTQBoke4IWgsniicWRlQpCEoyJ9Te4CWP44ogUkM9oID6ptJupj0mtoeHlYSLIyW/ya1r6CEtAUmtoEOJJSSDUPli1NtbfYLmL6Rg+AaS7pj+mlXYIim79O335jaUFadBhxWYsUvqI3nDv3hTBRjqQBt9pOyYc+xgUkjs9TMcnGpALnnz3KQeWrZCTzMbX6xJI91AoZQrpAcUW+BCfnG80nptjIL8+ioPCo6cZSOkjOUFg/holBGl8Hsp1MyHjwPidHOnYM38e9u79s87Pf5we3Omqf0J+3wCsGguPyGE/7SBLONeHvpCeAHb0jtBF6rk+MmW5kJkTJF1Ws8CfkPONZpdUGRVVhP7AS85Cer+Vi1vZ/HTiPlnf8nvTXDR18e6gKlmkEA4HTb0sXitCD77Syxdc65Cw1hFv45iSMIz6wsCNeqhXHWsusSCLkMKI3llgPXWtyjtmJ3dfOMjEy2/kc2XK8u/HVzPdDS9nFRreP1IOFzrEK18mX5vHz4uO6LU31ix92dloOku/F+yKBpUeNRB2n5IxiQ5Po2P2Nrsq2F7RRnaQn2z1y68QtXgtbVaQFu8O4Ypdi2V2GUGkaywmjMPmjJUF5Gxa4d46YvbRtjrzZgCZiUU+fFzZvbc5HYTGVs8Srjy2eywjDaQq50OEK10tX6SdBNL6VqmJeZXf/AsGpaLl81d6kBaLq1404DcFt60Xy+lAqoLf2IhfhGp9XBUEkNb05mpc1y+O+LT7R0d2z70+6RWkVZ3edI4XKWWInmDlboTu2ykSv++xexzyR67sF8ptJ38of6bSAfvYSrpPjrlRyJ9Zoe6jSq4lsVLk6b7V5VoSK1H1+ZHm02nN4u5waMfUbk1XXtKnKku7cX7Mrw97QcLX+ILhDgyrcLBK+zBi4Hx3+PGql/ZtYxe//xaOXrQYTFbzbJ8ELjlx5ghVT282G1VzVxLuqrYHcdSXbwtifW2u03YgfTkZ4YK2ACn13Nuu/VfZQfrOzbigrCDNlbOD6llZQIJ+0YlbahKVDhK4cXQ4TWkgPQeduCgtSLvZ/36/dNwwFIkgpX7Rka++ZBcBKQW94qS8axBPil6vzJhMBmW3XUWuXLly5cqVK1eu/7X+AUJCo9+EWqjMAAAAAElFTkSuQmCC",
             "website": "https://solana.fm/",
             "github": "https://github.com/SolanaFMLabs",
             "twitter": "https://twitter.com/solanafm",
             "crunchbase": "https://www.crunchbase.com/organization/solanafm",
-            "funding": ""
-          },
-          {
+    "funding": ""
+  },
+  {
             "description": "Solana Beach provides a user-friendly block explorer with validator insights, staking analytics, and blockchain stats in an interactive UI.",
             "name": "Solana Beach",
             "full_name": "Solana Beach",
-            "category": "Block Explorers",
+    "category": "Block Explorers",
             "launch_year": 2021,
             "logo": "data:image/jpeg;base64,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",
             "website": "https://solanabeach.io/",
-            "github": "",
+    "github": "",
             "twitter": "https://twitter.com/SolanaBeach_io",
-            "crunchbase": "",
-            "funding": ""
-          },
-          {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
             "description": "Solana Compass offers detailed epoch, block, and leader analytics with tools for exploring Solana cluster performance and validator metrics.",
             "name": "Solana Compass",
             "full_name": "Solana Compass",
@@ -479,48 +479,48 @@
             "website": "https://solanacompass.com/blocks",
             "github": "",
             "twitter": "https://twitter.com/solanacompass",
-            "crunchbase": "",
-            "funding": ""
-          },
-            {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
               "description": "Trident is an open-source, Rust-based fuzz testing framework (by Ackee Blockchain Security) for Anchor programs, helping discover vulnerabilities via coverage-guided and IDL-driven tests.",
               "name": "Trident",
               "full_name": "Trident Fuzzer",
-              "category": "Security Analysis Tools",
+    "category": "Security Analysis Tools",
               "launch_year": 2024,
               "logo": "https://camo.githubusercontent.com/6aa4b9476cd89a05064162c6893590502fc7294f97e3ac3fb707b1eea3e154b9/68747470733a2f2f6162636870726f642e7770656e67696e652e636f6d2f77702d636f6e74656e742f75706c6f6164732f323032342f30352f54726964656e742d436f6c6f722e706e67",
               "website": "https://github.com/Ackee-Blockchain/trident",
               "github": "https://github.com/Ackee-Blockchain/trident",
               "twitter": "",
-              "crunchbase": "",
-              "funding": ""
-            },
-            {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
               "description": "Blockaid offers real-time on-chain threat detection for Solana—proactively identifies phishing dApps, scam transactions, and harmful patterns before users can sign, integrated by wallets like Backpack and MetaMask.",
               "name": "Blockaid",
               "full_name": "Blockaid",
               "career": "https://www.comeet.com/jobs/blockaid/69.00b",
-              "category": "Security Analysis Tools",
+    "category": "Security Analysis Tools",
               "launch_year": 2023,
               "logo": "data:image/png;base64,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",
               "website": "https://blockaid.io/",
               "github": "",
               "twitter": "https://twitter.com/blockaid_",
-              "crunchbase": "",
-              "funding": ""
-            },
-            {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
               "description": "Octane is an AI-powered security platform for Solana devs—automatically scans PRs, identifies vulnerabilities in smart contracts, and offers real-time defense with 24/7 monitoring.",
               "name": "Octane",
               "full_name": "Octane Security",
-              "category": "Security Analysis Tools",
+    "category": "Security Analysis Tools",
               "career": "https://octane-security.notion.site",
               "launch_year": 2025,
               "logo": "https://cdn.prod.website-files.com/67cef4ff6300b3e765a4bce4/67cf1d8008ecabe1e77c52d6_octane-logo-primary.svg",
               "website": "https://www.octane.security/",
               "github": "https://github.com/anza-xyz/octane",
-              "twitter": "",
-              "crunchbase": "",
+    "twitter": "",
+    "crunchbase": "",
               "funding": "$6.75M"
             },
             {
@@ -528,11 +528,11 @@
               "name": "Hacken",
               "career": "https://hacken.io/careers/",
               "full_name": "Hacken",
-              "category": "Security Analysis Tools",
-              "launch_year": 2018,
+    "category": "Security Analysis Tools",
+    "launch_year": 2018,
               "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQF6oxwFOUt4UA/company-logo_200_200/company-logo_200_200/0/1674164143409?e=2147483647&v=beta&t=Jax8WHdSw1SZ7k-00AnwovIyKCYNisD4KwF5w6mNTdE",
               "website": "https://hacken.io/",
-              "github": "",
+    "github": "",
               "twitter": "",
               "crunchbase": "",
               "funding": ""
@@ -547,92 +547,92 @@
       "logo": "https://ba-repo.s3.us-east-1.amazonaws.com/logo.png",
       "website": "https://instantnodes.io/",
       "github": "",
-      "twitter": "",
-      "crunchbase": "",
-      "funding": ""
-    },
-    {
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
       "description": "Tenderly (multi-chain) supports Solana node monitoring, transaction simulation, webhooks, and real-time alerts—though primarily known for Ethereum, Solana support is expanding.",
-      "name": "Tenderly",
-      "full_name": "Tenderly",
-      "category": "Monitoring",
+    "name": "Tenderly",
+    "full_name": "Tenderly",
+    "category": "Monitoring",
       "career": "https://tenderly.co/careers",
-      "launch_year": 2018,
+    "launch_year": 2018,
       "logo": "data:image/png;base64,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",
-      "website": "https://tenderly.co/",
-      "github": "https://github.com/Tenderly",
-      "twitter": "https://twitter.com/tenderlyapp",
-      "crunchbase": "https://www.crunchbase.com/organization/tenderly",
-      "funding": "$58.6M"
-    },
-    {
+    "website": "https://tenderly.co/",
+    "github": "https://github.com/Tenderly",
+    "twitter": "https://twitter.com/tenderlyapp",
+    "crunchbase": "https://www.crunchbase.com/organization/tenderly",
+    "funding": "$58.6M"
+  },
+  {
       "description": "Pyth Network is the most widely used financial data oracle on Solana—providing high-frequency, on‑chain price feeds backed by major institutions and securing ~95% of Solana’s total value in DeFi.",
       "name": "Pyth Network",
       "full_name": "Pyth Network",
-      "category": "Oracles",
+    "category": "Oracles",
       "launch_year": 2021,
       "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAk1BMVEXm2v7///8AAADr3//l2P7u4v+dla7o3P90boHs4P9EQUvx5P/6+P/e0/bs4/707//39P/w6f718P/x6/749f/8+//CuNbNwuI4NT7TyOm8stCHgJWupcCmnbdXUmB+d4tLR1NfWmlsZneVjaQuLDM6N0Cso70SERSOh50mJCqDfJGhmLEZGBx7dIhZVWMpJy0dGyD1C2VRAAAOmElEQVR4nM2dfXfasA6H0+t4bhZICVxgUOj71nZdt/v9P911gJZgyYkk26S/c/bPThr8xLYky2/ZRXLNR5PprK4rXShjsiwzRhW6quvZdDKap//5LOXLR5NZpfJGFqz5d9TufxqpajYZpSxEKsL5tC72ZP2yzxX1NFV1piCcX1W21BkN74iZVVcpKKMTTmpDrDqUsp7ELlBcwmklpjtSVtOoZYpIOAnH+4SMWJOxCEd1JLwPyDqWgY1DeKVi4h0g1VWUskUgnMetvhZjXkcwrsGEoyoN3gGyCm6sgYQjnZJvx6gDGYMILV9qwKatFkGMAYTzWN6hn7EK6I9ywvo8eAfI+uyEs3Py7RhnZyUcmXMDWkQj644iwqQOooOxOhPhZBC8vQTxKp9woArcS1CNXML/Dsm3Y/xvWsKzuggPItNxsAjnCYYQfOWK5f85hJMzxTB9ynOOwWEQfoEW+iGO+6cTJh9FcJTr6IRzMzSUI0PtjETCETP7mV55RgziaISTr8bXiGhvSIRXXxHQIpJSVRTCs4+UqCKZVALhF/ISrijxTT/hFwYkIfYSRgY0xqidjInif/oR+wijATYTv6UeLxfrzdZqs16sxlo388Jh7+1F7CGMY2RUUZrF2+3N638cPd1f/1pazBDKPnPTTRjBTRhVZpvbny5bW3fXa6WVHLHbaXQShjt6Va4ev3fRfejv21gM2e36uwhHgYBGjx9/UPAOVbk1WtZc864AroNwHsanyvU9HW+vy2UpY+wIwzsIg3Kiqtj+4/I1+r4uBY01NxJCHcT3JsHb6WkjqUf/eNFLGOAITfnrWQxo9WPBZ/T7DB9hgBktFwzzgutmzG5BXoPqIZyLAVX2EMrX6IVtVnOPtfEQitOG5SYGn9XrklmNueIQSjuhytgOwq9rZjV6IlSUUJq614t4fFY/xzzHgSf8UUIhYPkYFdBqzWupOZWwEvGZImIL/dBjySoDNjOFEMochcmCfQSmB1YtYi4DIZTwZWpMcPI3v9/Wy1XzNbLxarH59n7X/zd3vCEyhVDURtWqp6Cv75txuVvpfShwk80otF79uuz5y58ZBxG2U0AoGjKpZWchnx5XZYHbRaN0ubz+X+dfcxDhQAoQSkYv3TV4uyy7W5opysVDLEQwynAJJYkZ0wH45xtpWGt09uJ/yQ+GXwQhuEsoAfQbmectPTVRGL87vWNYVNcpOoQ1HzBTT76CPXo6n0dF9u570wPDL9ZdhJIhRfnXU6r7ccF9l175knKP9Fp0BhmnhAJPoa89ZdrwwpG9jDfyW9ObQ+UnFHgKtcYLdMeMmj+lVyBvvNeYbFBPPcYJoWCqfowX51qYM8saD4nHtz/J7fR0kr9NKKjCEo+7RC30+FK8pV7TEUceQn4V6m9oWZZsE+O8Fk8ULKnt4qQSW4T8KjR4G13J5yAOwofSr+QP167EFiHfkOJtVGpj2ipQRHo7rTBCvi9UaGNadbelzxnS7nfjiD3vPqrlE4+E/HDGoJ2lowbtcEmt1pu3b9+2m8Wqe95QY27ohmzBaoSQb2YwX7/29hVVjn9dnuQBvv9eG3/cilqxNbkSISF/MhQzM77gyo4d3tB5xPuN9n2T8gE+/kStxOO06Sch2zxoJEy+9xRArzpG8i+Zh1EjIf2GWk7lEvJdBVKFz3gbKsZIbZwwKrTc2LjzH9WcfjqMD0K2ndG38OcXWEH9wXTr06zRyi+2AZVYO4T8gA3++C32fYsVKcv4gC6vQRzuT3JPPCVk50gVrJhn7OuSZ2r+rJDeiAVNC6I5/cidZsJ4Rv8BP421n9I3ekSEpfA1zN6Qc8TVCSG3Cg30x9+R5lP2JUNPtEXKruBj1DLmbcIpl1DDMRwS+WMejYmooLH5RrQ1+bRFyA+6we8iAVXpTSz5tIF9EXYHsq2pWoRsO/MLFA4aAM/gsVMwqlVwVQc1/s6PhGxLqkF+DX5YJZouhb9VgGceqc108knIdvdwVAENKTry6BVs7AUwx+T8cP1JyAaElhR0IK6V+dDW/VRI7EYu5wche+xbgIgNhDNGPKUPfg0GNtTIbTcOziQDpxIE/cDOYOOCRk8v63Gh7UB4c+uZ7bh0PxZ0GO/EhM1uCJVJfAWIpZ5BqaCxbXS/LA/j+mZR9BpP4QNTCX6OPEqsDoRcQNgN311CjSWuX531aqpEvwOoxBKMnclF3ROyu6ECwaLbMRBTZANKmJZRY6wax+5TIMonR9/zHWGEkA08cQPLfY01LYM96fo7aLU4gVsm8IalO+0O+gUy6Hn3JThg+uaf+ygIv0FD9qneEfJT8OAHnVcgkdadzzgYZCjt2hrwFb5TCYsdIXvkBBZevDmNBml6/rkxZH7ObaYFCOHJ2ZqGkJ2DgmbE7fhwUPfY0VBK0K1vHADYJqhlzUeWkJ/AAL/nGD8knumyDEhY5nwP+E2p01A2+M4uZiy8DAuFe7vhdWdfh2GZAwC/AdVdZDNLyI5oCjc18epYEdhtuj85/CIg8Ox9wKfKEvKT3Q/Oz7mWDRqa7igLVpFrarT7gGvbvFKWkD8j4wLcu4RuhtR9wFXpAtw6rRp4YOog2BrTjD9tqN1u4+b3QIF/97jc3jeCb/ZCJpxn/AkL4H/dCAMQ9n1xEAaCVuGGr92mq6V8lPFXBPcSgl7TF0aCng0I3Z+kE04ydtydgjBhHU4ztjtMQei+MV4/tHz86fsEhO4fAFvqZjyowyc7uvgKhCn9oeXjH90VnVCB5Hi8mCavMv5GyuiEJZhDXUWLSy0ff/wbmxAZijgvhGML8tIhy8dfohWbEKbSwPgQNGN6aRVru8YBIC5hAVOK7vMaTLTS+5YZnBCbqnfbIOiojLX7kpW8UQlNBvfL/ACDLfcJN/UVWTEJVYbMb7iPQ0NDd/giRSTU6H4p9ymYNqE7i0zSTqMRFgpdiwImQeBUF6O0Q1kaY1Q59qwGc6ctoL+nL9tvCAfxh+Pl+tG3u/I3mKkDX6IvZ3Dy14PENJ5NGnuBRgUbKXkdbdbENEPEpV2EIKaGkwicbmj5hhhbdBDCNbgwoGHt1asGGR/6Cf8g7Q88xPKGw4yA/YRwzFDA1Ymuse0hHCJP4yVEtuDBhUfeqUhUs0FybT7CDexgSBWCNUVdyqeD5Es9hAgg9iirsPkkRc5bSLhAAJEluOQ5/D3hSDJvkYTwCdsQhvhC+h69PeFcMveUgvAd3bWv4YloPDvTzD0J5g/jE/7DWii+s4oTsWX7+UP+Mv3ohG/4sQvYGlw4/u9WJZnHj0z4+obvCcqwTSucTes7zSRrMaISXi68pwgiq6XQLQ9d2q3FYLuLWITP948L7T8WBN2rwUpfZIf1NGxjGmEE3GwhzUrdtVW2xM468e3+8yoXrWuLQNh/TrJGj5ZkxdyNCtHaxPjzh1Alsi+ve+0Yrlq0vvQMhCW6GeUH/7jIqWiNcHpCz443+oTThw5rhLnrvFMT+o62YxxR8ynZWv3EhGqMb2RgBqQ7VbL9FmkJvZtOWWXc63O/BbMjpiT0n+/adVaDT597ZpgdMR2h8e8axvaX9r9PuHctFaEpl97j23+LjvQ57l3jBd9pCE258p8Oyo7WdmrtP+SFpikIVbnoOP2Uk+RuqbWHlOcv4q8Y0tmb91Q7q+/COe32PmBW4BaVUBXleOs70+5Qg0LAk73crGYagdDsLmPRWo83v/sOlXAX19AJxWcqgMWefMLlcrHevlwSjqBlHrPb1umZChxrCpKYcWdIT4XueCPJOReD1UzdE2cTEgYcbeecbcJz+g5iMsLnkKPt3PNpePmoU8RUhPchV0KBM4aYqe8TxESE26DDF8E5UdwhVBsxCeEd/3zXtpCzvrhJxRZiCsKt/HjQPeEFJOSm3I6I8QnfBQuZToWducfftP6BGJvw7yrkFp+d0HMT+ZNQH4hxCW+kdz61hZ59KTiU7oAYk/AhBp/v/FLBGbR7xGiEzy9j4b1kp/KdQSs6CnoZj7Bjoo0p7znCkrOgG8QIhH/e10WU6mvkPwtadPODRQwkfH3YrsqgSx4ddZznLbq9Qy0enOiDTPj09/Zt0TOPKFDHmeyyq7qMO6vXPwJeLxbLcRbjGlJEnefqi+5GAKJlMWL8EqrOuxHEVz2dKMIMaYB67reIcnnsoIS9d5SI7plxNChh7z0zwderZsMSEu4KEt5J1taQhIT7noR3drU1JCGCA/8r+J7j4QiJ964Ft9PhCIl35wU7xcEIyfcfiu+wPGgoQsYdliGXAWeDEXLuIQ24S7bRMIS8u2QD7gPOBiPk3Qcc5DIGIeTe6RzUFYcg9HTCLsKAu9XBQRdnIBTcrW5HGeJadC/6SU6YgxEFiXAu/0UHMX0deqxMD2HIQOoUMTUhHDIRCUMM6gliYkKvGe0n5B8xfFQbMS3hcTJUQBiStmkhJiUEiRkeYYhbPCKmJPQ7QiJhEOI6PWEvYD9hDMR0hP2ABMIIiMkICYAUwiBzs05J2GdkyISCe/U+tbvGMBFhj5vgEIa4/gYxDWG3o2cSXowyMaNFTEGYZ12hGp/wYi6fz9Br8rnGDJmOYFtEKJrkPyhFDfrHg3LCwARcVFG8hIDQ2puvwZgTbQyf8GIelGSMpVxRuyCf8Eu0VE4LFRCGJvwjAKKp+4iEFxf8w8Fi8mGzS7EJLyYDEnJMjJxwsGoUVKCU8GIkz6XK+QwxTItCGGfdDQ+QMlKKSXhmx8F1EVEIL+bVmWKcPK9YPj4aoe2O+gyMea5lHTAG4Y4xNWAYXzChZUzqOvIqkC8Coe2PdaK2mud1QP+LSGh1lWDQkStSoqlXcQhtY41bkbb6gpvnQbEIrSaxvIf1DoL406eIhFbTcEiLN41apriEVpPaiCntH9YRa2+v6IRW86uqKSyP0/5BdRXBdAKlIGw0n9ZFTqxM+1xRT1PQNUpFuNNoMqtUnu9JT2nzPVmeq2o2iWU2USUl3Gs+mkxndV01G2SazLlpbqyu6no2nYxSVVxL/wcR0/GyB0odUAAAAABJRU5ErkJggg==",
       "website": "https://www.pyth.network/",
       "github": "",
       "twitter": "https://twitter.com/pythnetwork",
       "crunchbase": "",
-      "funding": ""
-    },
-    {
+    "funding": ""
+  },
+  {
       "description": "Band Protocol runs a multi-chain oracle network and integrates with Solana—providing secure, cross-chain data aggregation with flexible customization.",
-      "name": "Band Protocol",
-      "full_name": "Band Protocol",
+    "name": "Band Protocol",
+    "full_name": "Band Protocol",
       "career": "https://www.bandprotocol.com/career",
-      "category": "Oracles",
-      "launch_year": 2018,
+    "category": "Oracles",
+    "launch_year": 2018,
       "logo": "data:image/png;base64,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",
-      "website": "https://bandprotocol.com/",
-      "github": "https://github.com/bandprotocol",
-      "twitter": "https://twitter.com/BandProtocol",
-      "crunchbase": "https://www.crunchbase.com/organization/band-protocol",
-      "funding": "$7.9M"
-    },
-    {
+    "website": "https://bandprotocol.com/",
+    "github": "https://github.com/bandprotocol",
+    "twitter": "https://twitter.com/BandProtocol",
+    "crunchbase": "https://www.crunchbase.com/organization/band-protocol",
+    "funding": "$7.9M"
+  },
+  {
       "description": "DIA offers open-source, transparent, and customizable data oracles—including NFT/token/price feeds—integrated into the Solana ecosystem.",
-      "name": "DIA",
-      "full_name": "Decentralised Information Asset",
-      "category": "Oracles",
-      "launch_year": 2021,
+    "name": "DIA",
+    "full_name": "Decentralised Information Asset",
+    "category": "Oracles",
+    "launch_year": 2021,
       "logo": "data:image/jpeg;base64,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",
       "website": "https://www.diadata.org/solana-price-oracles/",
-      "github": "https://github.com/comdex-official/comdex",
-      "twitter": "https://twitter.com/DIAdata_org",
-      "crunchbase": "https://www.crunchbase.com/organization/dia",
-      "funding": "$15M"
-    },
+    "github": "https://github.com/comdex-official/comdex",
+    "twitter": "https://twitter.com/DIAdata_org",
+    "crunchbase": "https://www.crunchbase.com/organization/dia",
+    "funding": "$15M"
+  },
 
       {
         "description": "Immunefi is Web3’s leading bug bounty platform—hosts major Solana programs like Raydium, Orca, Lido, Firedancer, offering bounties up to millions USD.",
-        "name": "Immunefi",
-        "full_name": "Immunefi",
-        "category": "Bug Bounty",
-        "launch_year": 2020,
+    "name": "Immunefi",
+    "full_name": "Immunefi",
+    "category": "Bug Bounty",
+    "launch_year": 2020,
         "logo": "data:image/jpeg;base64,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",
-        "website": "https://immunefi.com/",
-        "github": "",
-        "twitter": "https://twitter.com/immunefi",
-        "crunchbase": "https://www.crunchbase.com/organization/immunefi",
-        "funding": ""
-      },
-      {
+    "website": "https://immunefi.com/",
+    "github": "",
+    "twitter": "https://twitter.com/immunefi",
+    "crunchbase": "https://www.crunchbase.com/organization/immunefi",
+    "funding": ""
+  },
+  {
         "description": "Solana Foundation runs a high-stakes bounty program for core protocol and validator-related vulnerabilities—offers locked SOL rewards up to $2M for critical issues.",
         "name": "Solana Foundation Bug Bounty",
         "full_name": "Solana Foundation Bug Bounty",
-        "category": "Bug Bounty",
+    "category": "Bug Bounty",
         "launch_year": 2023,
         "logo": "https://upload.wikimedia.org/wikipedia/en/b/b9/Solana_logo.png",
         "website": "https://github.com/JumpCrypto/solana/security",
         "github": "https://github.com/JumpCrypto/solana/security",
         "twitter": "",
-        "crunchbase": "",
-        "funding": ""
-      },
-        {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
           "description": "Neon EVM brings a fully compatible Ethereum Virtual Machine to Solana, allowing Solidity/Vyper contracts to run with minimal changes—leveraging Solana's parallel execution for high throughput (up to ~730 TPS+).",
           "name": "Neon EVM",
           "full_name": "Neon EVM",
@@ -654,49 +654,49 @@
           "logo": "data:image/jpeg;base64,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",
           "website": "https://www.rome.builders",
           "github": "",
-          "twitter": "",
-          "crunchbase": "",
-          "funding": ""
-        },
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
       
           {
             "description": "Portal (powered by Wormhole) is the premier bridge for fast, secure transfers of tokens and NFTs between Solana and 30+ chains.",
             "name": "Portal Bridge",
             "full_name": "Portal Bridge (Wormhole)",
-            "category": "Bridge",
-            "launch_year": 2021,
+    "category": "Bridge",
+    "launch_year": 2021,
             "logo": "data:image/jpeg;base64,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",
             "website": "https://portalbridge.com/",
-            "github": "",
-            "twitter": "",
-            "crunchbase": "",
-            "funding": ""
-          },
-          {
+    "github": "",
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
             "description": "Allbridge is a multi-chain, fast, and secure bridge supporting Solana—bridges EVM and non-EVM assets with low fees and wide adoption.",
             "name": "Allbridge",
             "full_name": "Allbridge",
-            "category": "Bridge",
-            "launch_year": 2021,
+    "category": "Bridge",
+    "launch_year": 2021,
             "logo": "data:image/png;base64,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",
             "website": "https://app.allbridge.io/",
             "github": "https://github.com/allbridge-io",
             "twitter": "https://twitter.com/Allbridge_io",
-            "crunchbase": "",
-            "funding": ""
-          },
-          {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
             "description": "Wormhole is a cross-chain messaging and bridge protocol trusted by Uniswap and supporting token + NFT transfers across 30+ chains including Solana.",
             "name": "Wormhole",
             "full_name": "Wormhole Bridge",
-            "category": "Bridge",
-            "launch_year": 2021,
+    "category": "Bridge",
+    "launch_year": 2021,
             "logo": "data:image/png;base64,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",
             "website": "https://wormhole.com/",
             "github": "",
             "twitter": "",
-            "crunchbase": "",
-            "funding": ""
+    "crunchbase": "",
+    "funding": ""
           }
     ,
         
@@ -710,35 +710,35 @@
         "website": "https://raydium.io/",
         "github": "",
         "twitter": "",
-        "crunchbase": "",
-        "funding": ""
-      },
-      {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "Orca is a user-friendly AMM protocol on Solana designed for token swaps, LP staking, and concentrated liquidity pools.",
         "name": "Orca",
         "full_name": "Orca",
-        "category": "Protocols",
+    "category": "Protocols",
         "career": "https://jobs.ashbyhq.com/orca",
         "launch_year": 2021,
         "logo": "data:image/png;base64,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",
         "website": "https://orca.so/",
         "github": "",
-        "twitter": "",
-        "crunchbase": "",
-        "funding": ""
-      },
-      {
+    "twitter": "",
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "OpenBook (formerly Serum) is a decentralized, order-book based exchange protocol on Solana—maintained by community volunteers after FTX’s collapse.",
         "name": "OpenBook",
         "full_name": "OpenBook DEX",
-        "category": "Protocols",
-        "launch_year": 2022,
+    "category": "Protocols",
+    "launch_year": 2022,
         "logo": "https://thetoken.tools/icon.svg",
         "website": "https://openbook.market/",
         "github": "",
         "twitter": "",
-        "crunchbase": "",
-        "funding": ""
+    "crunchbase": "",
+    "funding": ""
       }
     ,
       {
@@ -746,15 +746,15 @@
         "name": "Solscan",
         "full_name": "Solscan Explorer & API",
         "category": "API",
-        "launch_year": 2021,
+    "launch_year": 2021,
         "logo": "data:image/png;base64,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",
         "website": "https://solscan.io/analytics",
         "github": "",
         "twitter": "",
-        "crunchbase": "",
-        "funding": ""
-      },
-      {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "Bitquery provides a powerful Solana GraphQL API with real-time and historical data—covering token transfers, DEX trades, NFT flows, and WebSocket streams (e.g., Kafka).",
         "name": "Bitquery",
         "full_name": "Bitquery Solana API",
@@ -764,14 +764,14 @@
         "website": "https://bitquery.io/blockchains/solana-blockchain-api",
         "github": "",
         "twitter": "",
-        "crunchbase": "",
-        "funding": ""
-      },
-      {
+    "crunchbase": "",
+    "funding": ""
+  },
+  {
         "description": "Moralis offers a comprehensive Solana API suite—including token balances, transfers, NFT metadata, trading data, OHLC, and wallet analytics.",
         "name": "Moralis",
         "full_name": "Moralis Solana API",
-        "category": "API",
+    "category": "API",
         "launch_year": 2022,
         "logo": "data:image/jpeg;base64,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",
         "website": "https://developers.moralis.com/chains/solana/",

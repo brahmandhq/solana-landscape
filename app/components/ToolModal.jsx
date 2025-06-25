@@ -45,10 +45,10 @@ export default function ToolModal({ visible, setVisible, currentItem }) {
       aria-labelledby="modal-title"
       open={visible}
       onClose={closeHandler}
-      style={{ marginLeft: '16px', marginRight: '16px' }}
+      style={{ marginLeft: '16px', marginRight: '16px', background: 'transparent', boxShadow: 'none' }}
     >
-      <Modal.Body>
-        <div className="pb-6">
+      <Modal.Body className="p-0">
+        <div className="p-6 bg-white text-black dark:bg-gray-900 dark:text-white rounded-xl shadow-xl border border-gray-200 dark:border-gray-700 dark:shadow-2xl">
           <img
             src={logo}
             width={'48px'}
