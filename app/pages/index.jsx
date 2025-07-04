@@ -31,6 +31,7 @@ export default function Home() {
   return (
     <>
       <div className="accent-bar" />
+      <div className="solana-watermark" />
       <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen">
         <Head>
           <title>Solana Developer Tooling Landscape | TechKareer</title>
@@ -52,13 +53,11 @@ export default function Home() {
                 />
               </div>
               <div className="lg:text-center flex-1 pb-8">
-                <h1 className="block text-xl md:text-2xl xl:text-3xl font-extrabold text-gray-800 dark:text-white">
-                  Solana Developer Tooling Landscape
+                <h1 className="gradient-heading block text-xl md:text-2xl xl:text-3xl font-extrabold text-gray-800 dark:text-white">
+                  Solana Ecosystem Portal
                 </h1>
                 <p className="w-full hidden xl:block text-gray-600 dark:text-white text-xs lg:mx-auto">
-                  {`This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Solana and Solana-compatible chains.`}
-                  <br />
-                  {`Scroll horizontally and vertically to view the whole landscape. Click on any tool to view additional details.`}
+                  {`Your one-stop destination for everything Solana: discover top dApps, tools, career opportunities, and the vibrant community powering the Solana blockchain.`}
                 </p>
               </div>
               <div className="header-actions flex flex-row items-center gap-4 ml-auto" style={{height: '48px'}}>
@@ -100,6 +99,7 @@ export default function Home() {
               {categories.map((category, index) => (
                 <div key={index}>
                   <h2 className="text-md font-bold pb-1 text-gray-800 dark:text-white">{category.name}</h2>
+                  <div className="category-heading-bar" />
                   <div>
                     <div className="grid grid-cols-3 gap-2 items-center justify-center">
                       {category.items.map((item, index) => (
@@ -111,6 +111,8 @@ export default function Home() {
                           }}
                           key={index}
                           showLaunchYear={true}
+                          size={index === 0 ? 3 : index === 1 ? 2 : index === 2 ? 1.5 : 1}
+                          badge={index === 0 ? 'Most Popular' : index === 1 ? 'Top 2' : index === 2 ? 'Top 3' : undefined}
                         />
                       ))}
                     </div>

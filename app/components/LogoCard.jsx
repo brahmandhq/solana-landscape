@@ -1,8 +1,14 @@
 import React from 'react'
 import { Card, Row } from '@nextui-org/react'
 
-export default function LogoCard({ item, onClick, showLaunchYear }) {
+export default function LogoCard({ item, onClick, showLaunchYear, size = 1 }) {
   const { logo, title, name, launch_year } = item
+  // Calculate logo size
+  let logoSize = 36;
+  let highlight = false;
+  if (size === 3) { logoSize = 96; highlight = true; }
+  else if (size === 2) { logoSize = 72; highlight = true; }
+  else if (size === 1.5) { logoSize = 56; highlight = true; }
 
   return (
     <Card
@@ -10,10 +16,12 @@ export default function LogoCard({ item, onClick, showLaunchYear }) {
       clickable
       onClick={onClick}
       style={{ minWidth: "fit-content", padding: "2px" }}
-      className="logo-card relative z-10 hover:text-blue-500 bg-white text-black dark:bg-gray-800 dark:text-white shadow-xl dark:shadow-[0_4px_16px_0_rgba(255,255,255,0.26),0_4px_22px_0_rgba(80,120,220,0.13)] border border-gray-200 dark:border-gray-700"
+      className={
+        `logo-card relative z-10 hover:text-blue-500 bg-white text-black dark:bg-gray-800 dark:text-white shadow-xl border border-gray-200 dark:border-gray-700 ${highlight ? 'popular-glow' : ''}`
+      }
     >
       <Card.Body css={{ p: 0 }}>
-        <div className="item-logo-container my-2 mx-auto">
+        <div className="item-logo-container my-2 mx-auto" style={{ width: logoSize, height: logoSize }}>
           <img
             src={logo}
             className="item-logo"
