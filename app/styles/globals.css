@@ -2,19 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Inter:wght@400;700;900&display=swap');
 
+/* Set up only one set of background and watermark rules for both modes */
 body {
   font-family: 'Inter', sans-serif;
   position: relative;
-  background: linear-gradient(120deg, #1a1a40 0%, #2b2d6e 40%, #00ffa3 100%);
-  background-size: 200% 200%;
-  animation: solanaBGMove 12s ease-in-out infinite;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #fff 0%, #F7931A 100%);
 }
-@keyframes solanaBGMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+html.dark body {
+  background: linear-gradient(180deg, #181818 0%, #F7931A 100%);
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.10;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png') no-repeat center center;
+  background-size: 600px 600px;
+  filter: blur(0.5px) drop-shadow(0 0 60px #F7931A);
+  transform: rotate(-12deg);
+}
+html.dark body::before {
+  opacity: 0.16;
+  filter: blur(0.5px) drop-shadow(0 0 120px #F7931A);
 }
 
 html, body {
@@ -29,10 +43,6 @@ body {
   html.dark, body.dark, body.dark {
     background-color: #20232a !important;
   }
-}
-
-.dark body {
-  background-color: #20232a !important;
 }
 
 main {
@@ -77,8 +87,8 @@ main {
 .accent-bar {
   height: 4px;
   width: 100vw;
-  background: linear-gradient(270deg, #38bdf8, #6366f1, #f472b6, #38bdf8);
-  background-size: 600% 600%;
+  background: #F7931A;
+  box-shadow: 0 0 16px 2px #F7931A88;
   animation: gradientMove 8s ease infinite;
   position: fixed;
   top: 0;
@@ -104,10 +114,23 @@ main {
 .logo-card {
   transition: transform 0.18s cubic-bezier(.4,2,.6,1), box-shadow 0.18s cubic-bezier(.4,2,.6,1);
   box-shadow: 0 2px 12px 0 rgba(0,255,163,0.08), 0 1.5px 6px 0 rgba(220,31,255,0.08);
+  background: #fff;
+  border: 2px solid #F7931A33;
+  box-shadow: 0 2px 12px 0 #F7931A11;
+  transition: box-shadow 0.2s, border 0.2s;
 }
 .logo-card:hover {
   transform: translateY(-8px) scale(1.04);
   box-shadow: 0 8px 32px 0 rgba(0,255,163,0.18), 0 8px 32px 0 rgba(220,31,255,0.18), 0 2px 8px 0 rgba(0,0,0,0.18);
+  border: 2px solid #F7931A;
+}
+html.dark .logo-card {
+  background: #181818;
+  border: 2px solid #F7931A33;
+}
+html.dark .logo-card:hover {
+  box-shadow: 0 8px 32px 0 #F7931A99;
+  border: 2px solid #F7931A;
 }
 
 /* Subtle background gradient */
@@ -265,42 +288,33 @@ body::before {
 }
 
 .popular-glow {
-  box-shadow: 0 0 0 4px #ffd700, 0 8px 32px 0 rgba(255,215,0,0.18), 0 2px 8px 0 rgba(0,0,0,0.18);
-  border: 2px solid #ffd700 !important;
+  box-shadow: 0 0 0 4px #F7931A, 0 8px 32px 0 #F7931A33, 0 2px 8px 0 #0002;
+  border: 2px solid #F7931A !important;
 }
 .popular-badge {
   position: absolute;
   top: 0.2rem;
   right: 0.2rem;
-  background: linear-gradient(90deg, #ffd700 60%, #fffbe6 100%);
-  color: #7c5700;
+  background: #F7931A;
+  color: #fff;
   font-weight: bold;
   font-size: 0.75rem;
   padding: 2px 10px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(255,215,0,0.18);
+  box-shadow: 0 2px 8px #F7931A33;
   z-index: 20;
   letter-spacing: 0.5px;
   border: 1.5px solid #fffbe6;
 }
 .popular-gold {
-  color: #bfa100 !important;
+  color: #F7931A !important;
   font-weight: 800 !important;
-  text-shadow: 0 1px 6px #fffbe6, 0 0px 2px #ffd700;
+  text-shadow: 0 1px 6px #fffbe6, 0 0px 2px #F7931A;
 }
 
-/* --- Solana Flavour Additions --- */
-.solana-watermark {
-  position: fixed;
-  bottom: 10vh;
-  right: 5vw;
-  width: 420px;
-  height: 420px;
-  opacity: 0.07;
-  z-index: 0;
-  background: url('https://cryptologos.cc/logos/solana-sol-logo.png?v=026') no-repeat center center;
-  background-size: contain;
-  pointer-events: none;
+/* --- Bitcoin Flavour Additions --- */
+.bitcoin-watermark {
+  display: none !important;
 }
 .gradient-heading {
   background: linear-gradient(90deg, #00ffa3 0%, #dc1fff 100%);
@@ -321,29 +335,36 @@ body::before {
   width: 60px;
   margin: 0 auto 8px auto;
   border-radius: 4px;
-  background: linear-gradient(90deg, #00ffa3 0%, #dc1fff 100%);
+  background: #F7931A;
+  box-shadow: 0 2px 8px #F7931A33;
 }
 .cta-button {
   display: inline-block;
-  background: linear-gradient(90deg, #00ffa3 0%, #dc1fff 100%);
-  color: #181c20;
+  background: #F7931A;
+  color: #fff;
   font-weight: 700;
   padding: 10px 28px;
   border-radius: 999px;
   font-size: 1.1rem;
   margin: 18px auto 0 auto;
-  box-shadow: 0 2px 12px 0 rgba(0,255,163,0.10);
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 12px 0 #F7931A33;
+  transition: background 0.2s, box-shadow 0.2s;
   border: none;
   cursor: pointer;
 }
 .cta-button:hover {
-  background: linear-gradient(90deg, #dc1fff 0%, #00ffa3 100%);
-  color: #fff;
-  box-shadow: 0 8px 32px 0 rgba(220,31,255,0.18);
+  background: #FFD700;
+  color: #181818;
+  box-shadow: 0 8px 32px 0 #FFD70055;
 }
 /* Modern heading font */
 h1, .gradient-heading {
-  font-family: 'Inter', 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
+  font-family: 'Orbitron', 'Montserrat', 'Poppins', 'Segoe UI', Arial, sans-serif;
   letter-spacing: 0.5px;
+  background: linear-gradient(90deg, #F7931A 0%, #FFD700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 8px #F7931A33;
 }

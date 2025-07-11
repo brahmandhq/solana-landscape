@@ -7,7 +7,7 @@ import lodash from 'lodash'
 import LogoCard from '../components/LogoCard'
 import ToolModal from '../components/ToolModal'
 
-import data from '../data/landscape.json'
+import data from '../data/bitcoin_portal.json'
 
 const groupByResult = lodash.groupBy(data, (tool) => tool.category)
 const categoryNames = [...new Set(data.map((tool) => tool.category))]
@@ -24,17 +24,17 @@ export default function Home() {
     name: '',
   })
 
-  const orgAndRepo = 'brahmandhq/solana-landscape'
+  const orgAndRepo = 'brahmandhq/bitcoin-landscape'
   const githubLink = 'https://github.com/' + orgAndRepo
   const starsImage = `https://img.shields.io/github/stars/${orgAndRepo}?style=social`
 
   return (
     <>
       <div className="accent-bar" />
-      <div className="solana-watermark" />
-      <div className="bg-white text-black dark:bg-gray-900 dark:text-white min-h-screen">
+      {/* Remove .bg-white and .dark:bg-gray-900 from the main container div, and move min-h-screen to main */}
+      <div className="text-black dark:text-white">
         <Head>
-          <title>Solana Developer Tooling Landscape | TechKareer</title>
+          <title>Bitcoin Developer Tooling Landscape | TechKareer</title>
           <link rel="icon" href="/favicon.png" />
         </Head>
         <ToolModal
@@ -42,7 +42,16 @@ export default function Home() {
           setVisible={setVisible}
           currentItem={currentItem}
         />
-        <main className="max-w-10xl mx-auto px-4 py-4 lg:py-6 lg:px-8 flex flex-col fade-in" style={{ position: 'relative', zIndex: 1 }}>
+        <main
+          className="max-w-10xl mx-auto px-4 py-4 lg:py-6 lg:px-8 flex flex-col fade-in min-h-screen"
+          style={{
+            position: 'relative',
+            zIndex: 1,
+            background: theme === 'dark'
+              ? 'linear-gradient(180deg, #181818 0%, #F7931A 100%)'
+              : 'linear-gradient(180deg, #fff 0%, #F7931A 100%)',
+          }}
+        >
           <div>
             <div className="flex flex-wrap flex-col lg:flex-row w-full items-baseline lg:pb-6 lg:pt-2 position-relative">
               <div className="mb-2 lg:mb-0">
@@ -54,10 +63,10 @@ export default function Home() {
               </div>
               <div className="lg:text-center flex-1 pb-8">
                 <h1 className="gradient-heading block text-xl md:text-2xl xl:text-3xl font-extrabold text-gray-800 dark:text-white">
-                  Solana Ecosystem Portal
+                  Bitcoin Ecosystem Portal
                 </h1>
                 <p className="w-full hidden xl:block text-gray-600 dark:text-white text-xs lg:mx-auto">
-                  {`Your one-stop destination for everything Solana: discover top dApps, tools, career opportunities, and the vibrant community powering the Solana blockchain.`}
+                  {`Your one-stop destination for everything Bitcoin: discover top dApps, tools, career opportunities, and the vibrant community powering the Bitcoin blockchain.`}
                 </p>
               </div>
               <div className="header-actions flex flex-row items-center gap-4 ml-auto" style={{height: '48px'}}>
@@ -89,19 +98,13 @@ export default function Home() {
             </div>
           </div>
           <div className="px-2 mt-4 lg:my-0 flex-1 w-full overflow-scroll">
-            <div
-              className="mb-8 grid grid-cols-4 gap-x-12 gap-y-16 px-4 text-center"
-              style={{
-                width: 'max-content',
-                height: 'max-content',
-              }}
-            >
+            <div className="mb-8 grid grid-cols-4 gap-x-12 gap-y-16 px-4 text-center" style={{ width: 'max-content', height: 'max-content' }}>
               {categories.map((category, index) => (
                 <div key={index}>
                   <h2 className="text-md font-bold pb-1 text-gray-800 dark:text-white">{category.name}</h2>
                   <div className="category-heading-bar" />
                   <div>
-                    <div className="grid grid-cols-3 gap-2 items-center justify-center">
+                    <div className="grid grid-cols-3 gap-2 items-end justify-center">
                       {category.items.map((item, index) => (
                         <LogoCard
                           item={item}
