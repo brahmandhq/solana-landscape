@@ -101,7 +101,7 @@ export default function Home() {
                   <h2 className="text-md font-bold pb-1 text-gray-800 dark:text-white">{category.name}</h2>
                   <div className="category-heading-bar" />
                   <div>
-                    <div className="grid grid-cols-3 gap-2 items-center justify-center">
+                    <div className="grid grid-cols-3 gap-2 items-end justify-center">
                       {category.items.map((item, index) => (
                         <LogoCard
                           item={item}
