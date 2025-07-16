@@ -101,7 +101,7 @@ export default function Home() {
                   <h2 className="text-md font-bold pb-1 text-gray-800 dark:text-white">{category.name}</h2>
                   <div className="category-heading-bar" />
                   <div>
-                    <div className="grid grid-cols-3 gap-2 items-end justify-center">
+                    <div className="grid grid-cols-3 gap-2 items-center justify-center">
                       {category.items.map((item, index) => (
                         <LogoCard
                           item={item}
@@ -113,6 +113,9 @@ export default function Home() {
                           showLaunchYear={true}
                           size={index === 0 ? 3 : index === 1 ? 2 : index === 2 ? 1.5 : 1}
                           badge={index === 0 ? 'Most Popular' : index === 1 ? 'Top 2' : index === 2 ? 'Top 3' : undefined}
+                          cardHeight={index < 3 ? 180 : 120}
+                          logoWidth={index < 3 ? 100 : 80}
+                          logoHeight={index < 3 ? 100 : 80}
                         />
                       ))}
                     </div>
