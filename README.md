@@ -1,28 +1,29 @@
-## Ethereum Developer Tooling Landscape
+# Solana Ecosystem Portal
 
-This landscape represents a comprehensive list of tools that developers use when developing smart contracts on Ethereum and EVM-compatible chains.
+Your one-stop destination for everything Solana — discover top dApps, tools, jobs, and the vibrant community powering the Solana blockchain.
 
-Currently it features 75+ tools spread across 15+ categories.
+Currently features **75+ tools** across **15+ categories**, sorted by popularity and usage.
 
-The tools within each category are sorted according to their popularity/usage.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ca81dcfd-707d-4fb4-b8a6-c73356c98dea" alt="Solana Ecosystem Preview" width="600" />
+</p>
 
-![2022-06-07 14 38 00](https://user-images.githubusercontent.com/78253155/172342647-04fe429e-022f-4b95-a049-ac0299a55da7.gif)
+### 🛠 Contributing
 
-### Contributing
+To suggest changes, edit the [`landscape.json`](https://github.com/dappcamp/landscape/blob/master/app/data/landscape.json) file and open a pull request.
 
-To suggest any changes to the entries or the categories, modify the [`landscape.json`](https://github.com/dappcamp/landscape/blob/master/app/data/landscape.json) file and open a pull request.
+For new entries, include:
 
-To suggest new entries, follow the below guidelines:
+- `name`, `full_name`, `category`, `description`, `launch_year`, and `logo`  
+- Use **.svg** logos when possible
 
-- **Required fields:** name, full_name, category, description, launch_year, and logo
-- Use a svg logo if possible
+---
 
-### Local setup
+### ⚙️ Local Setup
 
-This landscape app is built using Next.js and Tailwind. Run the following commands to open the project locally:
+Built with **Next.js** + **Tailwind**. Run locally with:
 
-```
+```bash
 cd app
 yarn install
 yarn start
-```
