@@ -1,0 +1,4 @@
+# Node modules
+app/node_modules
+.env
+
