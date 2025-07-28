@@ -15,12 +15,12 @@ export default function LogoCard({ item, onClick, showLaunchYear, size = 1, card
       onClick={onClick}
       style={{ width: '100%', height: cardHeight, padding: "2px" }}
       className={
-        `logo-card relative z-10 hover:text-blue-500 bg-white text-black dark:bg-gray-800 dark:text-white shadow-xl border border-gray-200 dark:border-gray-700 ${highlight ? 'popular-glow' : ''}`
+        `logo-card relative z-10 hover:text-blue-500 bg-white text-black dark:bg-gray-800 dark:text-white  shadow-xl border border-gray-200 dark:border-gray-700 ${highlight ? 'popular-glow' : ''}`
       }
     >
       <Card.Body css={{ p: 0 }} style={{ height: '100%' }}>
         <div
-          className="item-logo-container my-2 mx-auto"
+          className="item-logo-container my-2 mx-auto overflow-x-hidden"
           style={{
             width: logoWidth,
             height: '100%',
@@ -36,6 +36,7 @@ export default function LogoCard({ item, onClick, showLaunchYear, size = 1, card
             alt={title}
             style={{ width: logoWidth, height: logoHeight, maxWidth: '100%', maxHeight: '100%' }}
           />
+          <h1></h1>
         </div>
       </Card.Body>
       <Card.Footer style={{ padding: "8px" }}>
